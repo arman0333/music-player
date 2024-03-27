@@ -1,0 +1,55 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="output.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/7359424937.js" crossorigin="anonymous"></script>
+        <script src="script.js" defer></script>
+    </head>
+    <body class="parent">
+        <div class="flex text-center items-center justify-center h-screen relative">
+            <div class="h-[50%] w-[25%] rounded-lg border-6 border-gray-600 p-2 justify-center flex " id="container">
+                <img src="./img/beach.jpg" class=" absolute h-[30%] w-[25%] p-4 m-3" alt="">
+                <!-- <p>Lorem ipsum dolor sit </p> -->
+                <nav class=" p-2 absolute  bottom-[25%]  flex items-center h-container space-x-15 space-around align-center" >
+                    <div class="py-3 px-5 rounded-full border-3 border-black bg-transparent hover:bg-white ">
+                        <i class="fa-solid fa-angle-left scale-125"></i>
+                    </div>
+                    
+                    <div class="py-3 px-5 rounded-full border-3 border-black bg-transparent hover:bg-white ">
+                        <i class="fa-solid fa-pause scale-x-175" id="ctrlIcon"></i>
+                    </div>
+
+                    <div class="py-3 px-5 rounded-full border-3 border-black bg-transparent hover:bg-white ">
+                        <i class="fa-solid fa-angle-right scale-125"></i>
+                    </div>
+
+                    <div class=" py-3 px-5 rounded-full border-3 border-black bg-transparent hover:bg-white">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                </nav>
+
+            <div class="text-center items-center h-container justify-center flex ">
+                <h1 class="absolute bottom-[38%] pb-2 pt-2 text-[30px] font-exo-2 font-bold mt-3">Toh fir aao</h1>
+            <p class="absolute bottom-[35%] font-dongle text-[25px] font-light ">Emraan hasmi</p>
+            </div>
+                
+            <div class="absolute bottom-[30%] bg-transparent scale-y-150 scale-x-175 " >
+               
+                <audio id="song" >
+                    <source src="audio/bollywood_Awarapan 2007 - Toh Phir Aao.mp3" type="audio/mpeg">
+                </audio>
+                <input type="range" value="0" id="progress">
+            </div>
+            </div>
+         
+        </div>
+    </body>
+    </html>
