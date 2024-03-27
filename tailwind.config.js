@@ -17,6 +17,7 @@ module.exports = {
   fontFamily: {
     'exo-2': ['Exo 2', 'sans-serif'],
     'dongle': ['Dongle', 'sans-serif'],
+    caveat: ['Caveat', 'cursive'],
   },
   fontWeight: {
     'normal': 400,
